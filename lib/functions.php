@@ -20,3 +20,9 @@ function getContent(){
 function getPart($name){
 	include __DIR__ . '/../parts/'. $name . '.php';
 }
+
+function getUserData(){
+	$i=file_get_contents('../data/user.json');
+	$a=json_decode($i);
+	var_dump ($a);
+}
