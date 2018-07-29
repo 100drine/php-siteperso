@@ -1,3 +1,5 @@
+/*font-family: 'Caveat', cursive;*/
+
 * {
 	box-sizing: border-box;
 	margin:0;
@@ -5,6 +7,39 @@
 	font-size:1rem;
 }
 
-html {
-	font-size:62.5%;
+
+.jumbotron{
+	margin-bottom: 0px;
+	background-image: url(../img/fleurs.jpg);
+	background-position: 0% 25%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	color:white;
+	text-shadow:black 0.1em 0.1em 0.2em;
 }
+
+body{
+	margin-bottom:0px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	color:black;
+	background-color: white;
+	background-image: url(../img/temple.jpg)
+	
+}
+#bio{
+	margin-bottom:0px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	color:white;
+	font-family: 'Caveat', cursive;	
+	margin-top: 40px;
+	margin-left: 30px;
+	margin-right: 30px;
+	
+}
+
+menu{
+	margin-top: 0px;
+}
+
